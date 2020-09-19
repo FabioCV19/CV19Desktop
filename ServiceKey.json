@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "consigliaviaggi2019-ad0e1",
+  "private_key_id": "09478723164701b51bbf483d9be06fb4e22bff2f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDUa/JOW56ro0Iw\nHaRkF/OpWJTdRDYXXX1XyNymTZIHR8kvII0kTeUhuBCacJwn04DaxuvIQZDMyQVi\npbBcOFSP0I321bBSnmwlv28i3qmw5BjKAz6ccVP+LNEUYQaOguTsaA9GS8bSML+w\n/EqRpnsSdNLTaIKNmkAx8CPkSxDiUTCAxlS4ocHItVRRueXJLbaa13AQ7IRazjIx\nOZ1+dTzwv6QnweuK8Z1xpVeXYRMWyXDxqqU6yjJA9m9ipxL80/mj1blV66AyM9XS\nfMYZ86NrLHkOWApdaKZd04QlgrOydudAQZMMfxJfqPrDgsHwhhHYvKkcC0jnzrXT\nM1Ocj1FzAgMBAAECggEAL/wskeffeY1ZM85WZugEOnKQukUg5PlRCcYNliG6xZtB\nRryXNabFBm9yjLi4hcSg/IroE2ZARAp7BXRBWSu+anhlwWc3PAqeio5qmBltgtCc\nCvJdr/Bn1WihWHWsif/mn8LIBIy0nqG1g9ESNUHC1oH+aBRZPYylSMKjEPymFUFx\nlIshTxWuom6uE3DiLVqTTHz7+qBXH6gldNT+AVBrpTwj+u3+/t3iEX/NWlFIkeFA\nH4YF4tRcAIRXpxNWKy/3DgRJy2g75wR8DINwXrPR9/q+ucI5r3OqpKOUsbv+twVj\nKjRZstk1PU4tNtdE6tiOl6P1E8URzBGg5vGE6XHjVQKBgQDptx+HkY2J9hXIoD2D\nW1dDB+K94++eipoFYO8IgFKg5WE7fr+y14E4GRmF4OIoarguVw1pcml68oOg80CJ\n66OvggSuOHV6XdpSaXlmGe1+oWilpohO20xvdHp28dLcJs9oqSqY19qJf7aFpw8C\ne/XxvC/b3w54Gws5e0GBTFwxvwKBgQDorQ44DpW/ukDYfmofPtD3nW4PjQOB8XOk\nvjIz+qS7m7wuCfllK3cWyklrme+ECEww/vUWWRczrETkoYNW+MCuvMyYDyJy7isr\nZM2DJwFv85LKaeDymP156+lvMMCrAnUcZVB5nlv1XWTGWU2Y3/JuhwrL4HsztTr9\n0ziOn8xlTQKBgEt8IMvZf/xyJcEBuDxn0PxOXLZ2Gxt6qppYH3wAbi+XRls/6cxq\nfErRGIQ8CO+C4G/fH+7RzC2wjED8r/ibyedSuA5JH/BgxbXeaR5H+4Ptv+3YpqfJ\nfpt05GTsX+1I/65PDPoGpYfJXvs15Mwpm1rzLAX4uiSin3J2U8beEdzjAoGAVzd3\nWv/slh/E6uIH+YpcXlT+yol7RRwy0xAQVXeghEqOMVu/xnKSg1J0Twc2xvEtTjhj\numrOzanHcUQxrUo1P8q5jk4uBZLNT8jLWFwop8RPw9wIXCeI7EjICcvmjLOxHmHD\n1rLLmZ/WhJs5ARMBFvk7zMxqoilO4ZJpYtz3iwkCgYBA39571siO3s4MwvVVupMX\nMv3eWrLiL8cUF71IXFHtnhPfVLRTZ9hHAQ8TsdOIw8S72/RAzasjIJ8cBf2Hvm2P\n69rqg9qOMjKdWNiFX0xAI4jBk5CQSB2im0GqB9XmID4eFh4zDnuxcMGtWCfrzWPQ\nE5WaJtk/wKvrmpmET/03Dw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-h9uvz@consigliaviaggi2019-ad0e1.iam.gserviceaccount.com",
+  "client_id": "115538662931838181149",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-h9uvz%40consigliaviaggi2019-ad0e1.iam.gserviceaccount.com"
+}

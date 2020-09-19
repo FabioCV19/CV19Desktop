@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gruppo59.desktop.Controller.FXMLControllerRichiesteCancellazione">
+    <children>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffffbf" height="600.0" stroke="#18592e" strokeType="INSIDE" width="800.0" />
+        <Button layoutX="309.0" layoutY="488.0" mnemonicParsing="false" onAction="#confermaIsClicked" prefHeight="30.0" prefWidth="182.0" style="-fx-background-color: #ACE8C0;" text="CONFERMA" textFill="#18592e">
+            <font>
+                <Font name="System Bold" size="14.0" />
+            </font>
+        </Button>
+        <TableView fx:id="tableRichiestecancellazione" layoutX="82.0" layoutY="104.0" prefHeight="351.0" prefWidth="635.0">
+            <columns>
+                <TableColumn fx:id="username" prefWidth="161.80001068115234" style="-fx-background-color: #ACE8C0;" text="Username" />
+                <TableColumn fx:id="email" prefWidth="222.20001220703125" style="-fx-background-color: #ACE8C0;" text="E-mail" />
+                <TableColumn fx:id="motivo" prefWidth="279.199951171875" style="-fx-background-color: #ACE8C0;" text="Motivo" />
+            </columns>
+        </TableView>
+      <Text fill="#18592e" layoutX="145.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Richieste di Cancellazione" textAlignment="CENTER" wrappingWidth="523.2722778320312">
+         <font>
+            <Font name="Arial" size="42.0" />
+         </font>
+      </Text>
+      <Hyperlink layoutX="371.0" layoutY="541.0" onAction="#indietroIsClicked" text="Indietro">
+         <font>
+            <Font name="Arial" size="14.0" />
+         </font>
+      </Hyperlink>
+      <ImageView fitHeight="112.0" fitWidth="116.0" layoutX="659.0" layoutY="474.0">
+         <image>
+            <Image url="@cancel-account-member-user-profile-512.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

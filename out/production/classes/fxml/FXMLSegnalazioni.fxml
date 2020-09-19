@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gruppo59.desktop.Controller.FXMLControllerSegnalazioni">
+    <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ffffffbf" height="600.0" layoutX="-5.0" layoutY="-4.0" stroke="BLACK" strokeType="INSIDE" width="800.0" />
+    <Button fx:id="Elimina" layoutX="297.0" layoutY="457.0" mnemonicParsing="false" onAction="#eliminaIsClicked" prefHeight="30.0" prefWidth="206.0" style="-fx-background-color: #ACE8C0;" text="RIMUOVI RECENSIONE" textFill="#18592e">
+        <font>
+            <Font name="System Bold" size="14.0" />
+        </font>
+    </Button>
+    <Button fx:id="Annulla" layoutX="296.0" layoutY="510.0" mnemonicParsing="false" onAction="#annullaIsClicked" prefHeight="30.0" prefWidth="206.0" style="-fx-background-color: #ACE8C0;" text="ANNULLA SEGNALAZIONE" textFill="#18592e">
+        <font>
+            <Font name="System Bold" size="14.0" />
+        </font>
+    </Button>
+    <TableView fx:id="tablesegnalazioni" layoutX="69.0" layoutY="115.0" prefHeight="319.0" prefWidth="656.0">
+      <columns>
+          <TableColumn fx:id="username" prefWidth="135.1999969482422" style="-fx-background-color: #ACE8C0;" text="Username" />
+          <TableColumn fx:id="struttura" prefWidth="164.20001220703125" style="-fx-background-color: #ACE8C0;" text="Struttura" />
+          <TableColumn fx:id="recensione" prefWidth="359.79998779296875" style="-fx-background-color: #ACE8C0;" text="Recensione" />
+      </columns>
+    </TableView>
+    <Text fill="#18592e" layoutX="280.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Segnalazioni" textAlignment="CENTER">
+        <font>
+          <Font name="Arial" size="42.0" />
+        </font>
+    </Text>
+   <Hyperlink fx:id="indietro" layoutX="367.0" layoutY="558.0" onAction="#indietroIsClicked" text="Indietro">
+      <font>
+         <Font name="Arial" size="14.0" />
+      </font>
+   </Hyperlink>
+   <ImageView fitHeight="104.0" fitWidth="111.0" layoutX="670.0" layoutY="473.0">
+      <image>
+         <Image url="@segnalazioni-icon.png" />
+      </image>
+   </ImageView>
+</AnchorPane>
